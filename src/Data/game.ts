@@ -51,6 +51,7 @@ export class Game {
         console.log(`Computer move: ${botMove.name}`);
         console.log(`Result: ${this.rules[userMove.idx][botMove.idx]}`);
         console.log(`Key: ${key}`);
+        process.exit(0);
       } else {
         console.log('Invalid input. Please choose a valid move or enter 0 to exit.');
       }
